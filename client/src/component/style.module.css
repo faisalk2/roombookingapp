@@ -1,0 +1,119 @@
+.navBG {
+  background-color: #fc8019 !important;
+  color: white !important;
+}
+
+.icon {
+  color: white !important;
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  padding-top: 10px;
+  display: inline-block;
+  transform: rotate(3deg);
+  cursor: pointer;
+}
+
+.linkColor {
+  color: white !important;
+}
+
+.bgImg {
+  background-image: url("https://images6.alphacoders.com/349/349835.jpg");
+  width: 50%;
+  height: 80vh;
+  background-size: cover;
+}
+
+.footerImg {
+  background-image: url("https://wallpapertag.com/wallpaper/full/8/c/a/291120-full-size-brown-background-2880x1800.jpg");
+  width: 100%;
+  height: 22vh;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div.footerImg img {
+  height: 150px;
+  width: 100px;
+}
+
+.mainContent {
+  margin-top: 100px;
+}
+
+.orderFoodText {
+  font-size: 25px;
+  color: #919191;
+  font-weight: 400;
+}
+
+.loginContainer {
+  margin: auto;
+  width: 450px;
+  margin-top: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+}
+
+.profileBtn > button {
+  background-color: #fff !important;
+  color: #fc8019;
+  border: 1px solid #fc8019;
+  background-color: transparent !important;
+  color: inherit !important;
+  border-color: initial !important;
+}
+
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #f8b279;
+}
+
+.homeContainer:hover {
+  transform: scale(1.03);
+}
+
+.roomText {
+  color: #919191;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.leftAlign p {
+  text-align: left;
+  font-weight: 600;
+}
+
+.sortingOptions {
+  position: fixed;
+  top: 110;
+  left: 100;
+  height: 80vh;
+}
+.mainHomeContainer {
+  position: relative;
+}
+
+.logoZoomOut {
+  animation: zoomOutAnimation 1s ease-out;
+  transform-origin: center;
+}
+
+@keyframes zoomOutAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
