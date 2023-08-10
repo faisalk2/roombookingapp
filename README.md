@@ -1,5 +1,5 @@
 # roombookingapp
-this is a hotel booking app. where users can add delete and update the room in database. and on the landing page user can book and cancel the booking of a room.
+this is a hotel booking app. where users can add, delete and update the room in database. and on the landing page user can book and cancel the booking of a room.
 before performing any operation users need to register their self on the website and then they can land on the website
 
 deployed link:- https://roombookingapp.netlify.app/
