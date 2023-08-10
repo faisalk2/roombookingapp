@@ -20,8 +20,8 @@ const AllRoutes = () => {
                 <Route path='/home' element={<Home />} />
                 <Route path='/profile' element={<Profile />}>
                     <Route index path='/profile/user' element={<UserProfile/>}/>
-                    <Route index path='/profile/addRoom' element={<AddRoom/>}/>
-                    <Route index path='/profile/roomList' element={<RoomList/>}/>
+                    <Route  path='/profile/addRoom' element={<AddRoom/>}/>
+                    <Route  path='/profile/roomList' element={<RoomList/>}/>
 
                 </Route>
             </Routes>

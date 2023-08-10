@@ -9,7 +9,7 @@ const Profile = () => {
 
     useEffect(() => {
         navigate('/profile/user')
-    }, [navigate])
+    }, [])
 
     return (
         <div>

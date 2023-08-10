@@ -33,7 +33,7 @@ const NavbarComponent = () => {
                     <Nav.Link
                         as={NavLink}
                         className={styles.linkColor}
-                        to="profile"
+                        to="/profile"
                     >
                         Profile
                     </Nav.Link>
